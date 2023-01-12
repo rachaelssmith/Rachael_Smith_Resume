@@ -26,8 +26,8 @@ linkedin_username: rachael-s-smith
 # xing_username: jekyll
 # pinterest_username: jekyll
 #youtube_username: globalmtb
-# googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -88,6 +88,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Brigham Young University - Idaho
         caption: January 2018 - December 2022
         sub_title: BS | Data Science<br>Minor | Statistics<br>Minor | Business Analytics<br>Certificate | Machine Learning
@@ -203,3 +205,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
