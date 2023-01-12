@@ -1,11 +1,17 @@
 # Site
 repository: sproogen/resume-theme
 favicon: images/rachael_profile.jpg
+repository: sproogen/resume-theme
+favicon: images/rachael_profile.jpg
 
 # Content configuration version
 version: 2
 
 # Personal info
+name: Rachael Smith
+title: Data Scientist
+email: smith.rachael@gmail.com
+website: www.github.com/sproogen/resume-theme
 name: Rachael Smith
 title: Data Scientist
 email: smith.rachael@gmail.com
@@ -34,7 +40,11 @@ additional_links:
 - title: Linked In
   #icon: 
   url: https://www.linkedin.com/in/rachael-s-smith/
+- title: Linked In
+  #icon: 
+  url: https://www.linkedin.com/in/rachael-s-smith/
 # - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
@@ -45,6 +55,8 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
+# about_title: About Me
+about_profile_image: images/rachael_profile.jpg
 # about_title: About Me
 about_profile_image: images/rachael_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
@@ -61,6 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Education # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -70,6 +83,7 @@ content:
         caption: January 2018 - December 2022
         sub_title: BS | Data Science<br>Minor | Statistics<br>Minor | Business Analytics<br>Certificate | Machine Learning
         quote: >
+          BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
           BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
         description: | # this will include new lines to allow paragraphs
           GPA: 3.9 <br><br>
